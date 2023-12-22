@@ -18,22 +18,52 @@ body {
     
 }
 
+/* Add these styles to your CSS file */
+
 .hero {
     display: flex;
+    flex-wrap: wrap-reverse;
     align-items: center;
-}
-
-.hero > .hero-text {
-    width: 40%;
-    padding: 0px 30px;
-}
-
-.hero > .hero-image {
-    width: 60%;
-    padding: 100px 30px;
+    justify-content: space-between;
+    padding: 40px; /* Adjust the padding as needed */
+    background-color: #f0f0f0; /* Set the background color as needed */
+  }
+  
+  .hero-text {
     flex: 1;
-}
-
-.airbnb-gallery {
-    width: 60%;
-}
+    max-width: 600px; /* Adjust the max-width as needed */
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333; /* Set the text color as needed */
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666; /* Set the text color as needed */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #008489; /* Set the button background color as needed */
+    color: #fff; /* Set the button text color as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #006666; /* Set the button hover background color as needed */
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+  }
+  
