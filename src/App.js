@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Card from './components/Card.jsx';
+import CardX from './components/CardX.jsx';
 import BellaMax from './components/images/BellaMax.jpeg';
 import CharlieSimbar from './components/images/CharlieSimbar.jpeg'
 import LeoMilo from './components/images/LeoMilo.jpeg'
@@ -37,6 +38,40 @@ function App() {
         name = 'Oliver Luna'
         phone = '+81 3 1234 5678'
         email = 'random.email@outlook.com'
+        />
+      </div>
+      <div className='cardSection'>
+        <CardX 
+        img = {BellaMax}
+        title = 'Travel Teaching Home'
+        star = '120'
+        voteNumber = '88'
+        country = 'USA'
+        cost = '1,858'
+        />
+        <CardX
+        img = {CharlieSimbar}
+        title = 'Christmas Holiday parrol'
+        star = '201'
+        voteNumber = '968'
+        country = 'NG'
+        cost = '709'
+        />
+        <CardX 
+        img = {LeoMilo}
+        title = 'Liking the transition'
+        star = '10'
+        voteNumber = '818'
+        country = 'NG'
+        cost = '608'
+        />
+        <CardX 
+        img = {OliverLuna}
+        title = 'Oliver Luna'
+        star = '20'
+        voteNumber = '88'
+        country = 'NG'
+        cost = '578'
         />
       </div>
     </div>
