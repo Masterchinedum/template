@@ -67,3 +67,8 @@ body {
     border-radius: 10px; /* Add border-radius for rounded corners */
   }
   
+  .cardSection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }

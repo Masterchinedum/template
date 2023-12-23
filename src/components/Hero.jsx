@@ -6,8 +6,8 @@ const Hero = () => {
     <div>
         <div className="hero">
             <div className="hero-text">
-            <h1>Introducing Airbnb Plus</h1>
-            <p>A new selection of homes verified for quality & comfort</p>
+            <h1>Online Experiences</h1>
+            <p>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
             <button className="btn">Explore Airbnb Plus</button>
             </div>
             <div className="hero-image">
