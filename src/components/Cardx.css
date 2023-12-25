@@ -1,0 +1,46 @@
+/* CardX.css */
+
+.cardconatiner {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 250px;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.cardx-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.card--satus {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card--satus img {
+  width: 20px;
+  height: auto;
+  margin-right: 4px;
+}
+
+.gray {
+  color: #777;
+  margin-left: 4px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* You can add more styles as needed */

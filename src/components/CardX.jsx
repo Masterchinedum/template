@@ -3,7 +3,7 @@ import './Cardx.css';
 import starimg from './images/Star 1.png';
 
 const CardX = (props) => {
-    const {img, title, star, voteNumber, country, cost } = props;
+    const {img, title, star, voteNumber, location, cost } = props;
   return (
     <div className='cardconatiner'>
         <img src= {img} alt="profile photo"  className = "cardx-image" />
@@ -15,7 +15,7 @@ const CardX = (props) => {
               <circle cx="1" cy="1" r="1" fill="#918E9B"/>
               </svg> 
             </span>
-            <span>{country}</span>
+            <span>{location}</span>
         </div>
         <p> {title} </p>
         <p> 

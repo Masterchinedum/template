@@ -7,9 +7,24 @@ import BellaMax from './components/images/BellaMax.jpeg';
 import CharlieSimbar from './components/images/CharlieSimbar.jpeg'
 import LeoMilo from './components/images/LeoMilo.jpeg'
 import OliverLuna from './components/images/OliverLuna.jpeg';
+import experiences from './components/data';
+
 
 
 function App() {
+  
+let myexperiences = experiences.map((experience) => {
+  return (
+    <CardX 
+    img = {experience.img}
+    title = {experience.title}
+    star = {experience.star}
+    voteNumber = {experience.voteNumber}
+    location = {experience.location}
+    cost = {experience.cost}
+    />
+  )
+})
   return (
     <div className= "App">
       <Navbar />
@@ -41,41 +56,46 @@ function App() {
         />
       </div>
       <div className='cardSection'>
-        <CardX 
-        img = {BellaMax}
-        title = 'Travel Teaching Home'
-        star = '120'
-        voteNumber = '88'
-        country = 'USA'
-        cost = '1,858'
-        />
-        <CardX
-        img = {CharlieSimbar}
-        title = 'Christmas Holiday parrol'
-        star = '201'
-        voteNumber = '968'
-        country = 'NG'
-        cost = '709'
-        />
-        <CardX 
-        img = {LeoMilo}
-        title = 'Liking the transition'
-        star = '10'
-        voteNumber = '818'
-        country = 'NG'
-        cost = '608'
-        />
-        <CardX 
-        img = {OliverLuna}
-        title = 'Oliver Luna'
-        star = '20'
-        voteNumber = '88'
-        country = 'NG'
-        cost = '578'
-        />
+        <CardX />
       </div>
     </div>
   );
 }
 
+
 export default App;
+
+
+
+/* <CardX 
+img = {BellaMax}
+title = 'Travel Teaching Home'
+star = '120'
+voteNumber = '88'
+location = 'USA'
+cost = '1,858'
+/>
+<CardX
+img = {CharlieSimbar}
+title = 'Christmas Holiday parrol'
+star = '201'
+voteNumber = '968'
+location = 'NG'
+cost = '709'
+/>
+<CardX 
+img = {LeoMilo}
+title = 'Liking the transition'
+star = '10'
+voteNumber = '818'
+location = 'NG'
+cost = '608'
+/>
+<CardX 
+img = {OliverLuna}
+title = 'Oliver Luna'
+star = '20'
+voteNumber = '88'
+location = 'NG'
+cost = '578'
+/> */
