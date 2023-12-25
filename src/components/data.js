@@ -7,15 +7,15 @@ const experiences = [
       location: 'NG',
       cost: '578'
     },{
-      img: 'https://images.unsplash.com/photo-1593642532454-e953f9ee96c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80', 
+      img: 'https://cdn.pixabay.com/photo/2019/11/04/10/02/morocco-4600726_1280.jpg', 
       title: 'Online Cooking Class',
       star: '72',
       voteNumber: '175',
-      country: 'Online',
+      location: 'Online',
       cost: '300'
     },
     {
-      img: 'https://images.unsplash.com/photo-1593642632823-8f785ba9ff26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80',
+      img: 'https://cdn.pixabay.com/photo/2016/11/22/19/25/man-1850181_1280.jpg',
       title: 'Mountain Hiking',
       star: '90', 
       voteNumber: '200',
@@ -23,14 +23,14 @@ const experiences = [
       cost: '450'
     },
     {
-      img: 'https://images.unsplash.com/photo-1593642532454-e953f9ee96c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80',
+      img: 'https://cdn.pixabay.com/photo/2022/01/17/09/10/retreat-6944181_1280.jpg',
       title: 'Yoga Retreat',
       star: '65',
       voteNumber: '120',
       location: 'Bali', 
       cost: '800'
     },{
-        img: 'https://images.unsplash.com/photo-1593642455461-4d961546de5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        img: 'https://cdn.pixabay.com/photo/2012/02/25/19/03/spa-16900_1280.jpg',
         title: 'Weekend Safari Getaway',
         star: '54',
         voteNumber: '123',
@@ -38,7 +38,7 @@ const experiences = [
         cost: '1500'
       },
       {
-        img: 'https://images.unsplash.com/photo-1593642540159-4cdcf86a6f54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80',
+        img: 'https://cdn.pixabay.com/photo/2018/09/06/14/08/blue-sky-3658394_1280.jpg',
         title: 'Private Helicopter Tour',
         star: '45',
         voteNumber: '98',
@@ -46,7 +46,7 @@ const experiences = [
         cost: '850'
       },
       {
-        img: 'https://images.unsplash.com/photo-1654620459546-54054a4547c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+        img: 'https://cdn.pixabay.com/photo/2018/12/01/21/33/surfers-3850272_1280.jpg',
         title: 'Surfing Lessons',
         star: '38',
         voteNumber: '75',

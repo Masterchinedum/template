@@ -12,19 +12,6 @@ import experiences from './components/data';
 
 
 function App() {
-  
-let myexperiences = experiences.map((experience) => {
-  return (
-    <CardX 
-    img = {experience.img}
-    title = {experience.title}
-    star = {experience.star}
-    voteNumber = {experience.voteNumber}
-    location = {experience.location}
-    cost = {experience.cost}
-    />
-  )
-})
   return (
     <div className= "App">
       <Navbar />
@@ -56,8 +43,18 @@ let myexperiences = experiences.map((experience) => {
         />
       </div>
       <div className='cardSection'>
-        <CardX />
+      {experiences.map((experience) => (
+    <CardX 
+      img={experience.img}
+      title={experience.title}
+      star={experience.star}
+      voteNumber={experience.voteNumber}
+      location={experience.location}
+      cost={experience.cost}
+    />
+  ))}
       </div>
+      {console.log('experiences:', experiences)};
     </div>
   );
 }
