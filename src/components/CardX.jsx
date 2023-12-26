@@ -18,16 +18,10 @@ const CardX = (props) => {
   } else if (location === "Online") {
     badgetest = "ONLINE"
   }
-  
+  console.log(props)
     return (
     <div className='cardconatiner'>
-        {openspots === 0 ? (
-          <div className='cardx-badge'>SOLD OUT</div>
-        ) : openspots <= 10 ? (
-          <div className='cardx-badge'>Limited Space</div>
-        ) : (
-          <div className='cardx-badge'>Available</div>
-        )}
+        {badgetest && <div className='cardx-badge'> {badgetest}</div>}
         <img src= {img} alt="project profile "  className = "cardx-image" />
         <div className='card--satus'>
             <img src={starimg} alt='star-icon' />

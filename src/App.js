@@ -14,16 +14,29 @@ import experiences from './components/data';
 function App() {
   
 let myexperiences = experiences.map((experience) => {
+  // const {img, title, star, voteNumber, location, cost, openspots, id } = experience 
   return (
     <CardX 
     key = {experience.id}
-    img = {experience.img}
-    title = {experience.title}
-    star = {experience.star}
-    voteNumber = {experience.voteNumber}
-    location = {experience.location}
-    cost = {experience.cost}
-    openspots = {experience.openspots}
+    {...experience}
+
+    // img = {img}
+    // title = {title}
+    // star = {star}
+    // voteNumber = {voteNumber}
+    // location = {location}
+    // cost = {cost}
+    // openspots = {openspots}
+
+
+
+    // img = {experience.img}
+    // title = {experience.title}
+    // star = {experience.star}
+    // voteNumber = {experience.voteNumber}
+    // location = {experience.location}
+    // cost = {experience.cost}
+    // openspots = {experience.openspots}
     />
   );
 }) 
