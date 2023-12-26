@@ -3,10 +3,32 @@ import './Cardx.css';
 import starimg from './images/Star 1.png';
 
 const CardX = (props) => {
-    const {img, title, star, voteNumber, location, cost } = props;
-  return (
+    const {
+      img, 
+      title, 
+      star, 
+      voteNumber, 
+      location, 
+      cost, 
+      openspots,
+    } = props;
+  let badgetest
+  if (openspots === 0) {
+    badgetest = "SOLD OUT"
+  } else if (location === "Online") {
+    badgetest = "ONLINE"
+  }
+  
+    return (
     <div className='cardconatiner'>
-        <img src= {img} alt="profile photo"  className = "cardx-image" />
+        {openspots === 0 ? (
+          <div className='cardx-badge'>SOLD OUT</div>
+        ) : openspots <= 10 ? (
+          <div className='cardx-badge'>Limited Space</div>
+        ) : (
+          <div className='cardx-badge'>Available</div>
+        )}
+        <img src= {img} alt="project profile "  className = "cardx-image" />
         <div className='card--satus'>
             <img src={starimg} alt='star-icon' />
             <span>{star}</span>

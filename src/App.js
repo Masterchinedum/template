@@ -16,12 +16,14 @@ function App() {
 let myexperiences = experiences.map((experience) => {
   return (
     <CardX 
+    key = {experience.id}
     img = {experience.img}
     title = {experience.title}
     star = {experience.star}
     voteNumber = {experience.voteNumber}
     location = {experience.location}
     cost = {experience.cost}
+    openspots = {experience.openspots}
     />
   );
 }) 
@@ -58,7 +60,7 @@ let myexperiences = experiences.map((experience) => {
       <div className='cardSection'>
       {myexperiences}
       </div>
-      {console.log('experiences:', experiences)};
+      
     </div>
   );
 }
