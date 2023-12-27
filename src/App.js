@@ -8,6 +8,7 @@ import CharlieSimbar from './components/images/CharlieSimbar.jpeg'
 import LeoMilo from './components/images/LeoMilo.jpeg'
 import OliverLuna from './components/images/OliverLuna.jpeg';
 import experiences from './components/data';
+import Travel from './components/Travel.jsx';
 
 
 
@@ -72,6 +73,8 @@ let myexperiences = experiences.map((experience) => {
       </div>
       <div className='cardSection'>
       {myexperiences}
+
+      <Travel />
       </div>
       
     </div>
