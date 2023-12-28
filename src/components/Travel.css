@@ -19,7 +19,9 @@
     font-size: 14.461px;
     font-family: Inter;
     font-weight: 500;
-    padding: 7px;
+    padding-left: 7px;
+    margin-top: auto;
+    margin-bottom: auto;
     font-style: normal;
     letter-spacing: -1.085px;
     line-height: normal;
@@ -30,14 +32,10 @@
 .tcard {
     display: flex;
     width: 550px; /* Adjust the max-width as needed */
-    margin: 20px;
-    border: 1px solid #ccc;
+    padding: 18px;
+    border-bottom: 1px solid #F5F5F5;
     border-radius: 8px;
     overflow: hidden;
-  }
-  
-  .tcard-image {
-    flex: 1;
   }
   
   .tcard-image img {
@@ -48,14 +46,13 @@
   }
   
   .tcard-details {
-    flex: 2;
-    padding: 20px;
+    padding: 19px 19px 0px 19px;
   }
   
   .tcard-location {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    padding: 0px;
   }
   
   .tcard-location svg {
@@ -63,12 +60,24 @@
   }
   
   .tcard-title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 4px 0px 18px 0px;
   }
   
   .tcard-description {
-    color: #555;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 11px;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+    width: 326px;
   }
   
   .Travel {
@@ -77,3 +86,45 @@
     justify-content: center;
     align-items: center;
     }
+
+  .tcardicon {
+    width: 7px ;
+    height: 10px ;
+    fill: none;
+    }
+
+  p.Location {
+    margin: 0px;
+    padding: 0px 4px;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.741px;
+
+  }
+  p.VGmap {
+    margin: 0px;
+    color: #918E9B;
+    font-family: Inter;
+    padding: 0px 12px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+
+  }
+
+  p.tcard-Date{
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 11px;
+    margin: 9px 0px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
