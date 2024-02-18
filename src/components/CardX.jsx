@@ -18,7 +18,7 @@ const CardX = (props) => {
   } else if (location === "Online") {
     badgetest = "ONLINE"
   }
-  console.log(props)
+  
     return (
     <div className='cardconatiner'>
         {badgetest && <div className='cardx-badge'> {badgetest}</div>}
